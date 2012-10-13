@@ -7,7 +7,7 @@ Option Explicit
 '                   return an array containing the same data.
 '   
 '   property        {bool}  SpaceAllowed    Set to true to allow spaces in
-'                                           a csv file without startind 
+'                                           a csv file without starting
 '                                           and ending in double quotes
 '
 '   property        {char}  EscapeCharacter Use to specify which char should
@@ -30,7 +30,6 @@ Option Explicit
 '	subField ::= (any char except double quote or EOF)+
 '   
 '========================================================================
-
 
 Class CSVParser
 
@@ -55,7 +54,7 @@ Class CSVParser
     Private UnixLineEnding
     Private WindowsLineEnding
     Private NewLineReplacement
-
+   
 
     ' Error Messages
     Private FileNotFoundErr
