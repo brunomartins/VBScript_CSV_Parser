@@ -12,7 +12,7 @@ Dim csvArray
 
 set testParser = new CSVParser
 
-csvArray = testParser.CSVArray( "C:\crazyTest.csv" )
+csvArray = testParser.CSVArray( "C:\test.csv" )
 
 For xIterator = LBound( csvArray, 1 ) to UBound( csvArray, 1 )
 
